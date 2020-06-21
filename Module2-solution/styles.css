@@ -3,6 +3,7 @@
 	margin: 0px;
 	padding: 0px;
 	box-sizing: border-box;
+	background-color: #bdeda4;
 }
 .menu{
 	font-size: 175%;
@@ -14,32 +15,34 @@
 }
 #para{
 	position: relative;
-	top: 20px;
+	/*top: 20px;*/
+	margin: 10px;
 }
 p{
-	background-color: grey;
+	background-color: #9acee6;
 	border: 2px solid black;
-	padding: 25px;
-	margin: 10px;
+	padding: 30px;
+	
 }
 .menutitle{
 	position: absolute;
 	top: 0px;
-	right: 10px;
+	right: 0px;
 	border: 2px solid black;
 	width: 40%;
+	height: 35px;
 	text-align: center;
 	font-size: 125%;
 }
 #Chicken{
-	background-color: #cf8d8d;
+	background-color: #e75cff;
 }
 #Beef{
 	background-color: #b93c3b;
 	color: white;
 }
 #Sushi{
-	background-color: #e1ca8d;
+	background-color: #ffac30;
 }
 .row{
 	width: 95%;
